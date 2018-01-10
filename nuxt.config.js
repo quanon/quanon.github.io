@@ -58,5 +58,12 @@ module.exports = {
   css: [
     'semantic-ui-css/semantic.min.css',
     '~assets/stylesheets/main.scss'
-  ]
+  ],
+  modules: [
+    '@nuxtjs/pwa'
+  ],
+  manifest: {
+    name: "QUANON's Page",
+    lang: 'ja'
+  }
 };
