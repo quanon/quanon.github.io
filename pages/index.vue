@@ -1,12 +1,15 @@
 <template>
   <section class="container">
-    <name-header/>
-    <sticky-menu/>
+    <NameHeader/>
+    <StickyMenu/>
     <div class="ui tab active" data-tab="intro">
-      <intro/>
+      <Intro/>
     </div>
     <div class="ui tab" data-tab="favorites">
-      <favorites/>
+      <Favorites/>
+    </div>
+    <div class="ui tab" data-tab="tools">
+      <Tools/>
     </div>
   </section>
 </template>
@@ -16,13 +19,15 @@ import Favorites from '~/components/Favorites.vue';
 import Intro from '~/components/Intro.vue';
 import NameHeader from '~/components/NameHeader.vue';
 import StickyMenu from '~/components/StickyMenu.vue';
+import Tools from '~/components/Tools.vue';
 
 export default {
   components: {
     Favorites,
     Intro,
     NameHeader,
-    StickyMenu
+    StickyMenu,
+    Tools
   }
 };
 </script>

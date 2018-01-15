@@ -3,6 +3,7 @@
       <div class="ui main container">
         <a class="active item" data-tab="intro">自己紹介</a>
         <a class="item" data-tab="favorites">好きなもの</a>
+        <a class="item" data-tab="tools">ツール</a>
       </div>
     </div>
   </div>

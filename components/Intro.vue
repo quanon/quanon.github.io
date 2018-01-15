@@ -4,11 +4,11 @@
     <h4 class="ui header"><ruby>QUANON<rt>くあのん</rt></ruby></h4>
     <h3 class="ui dividing header">ステータス</h3>
     <h4 class="ui header">スピリチュアルプログラマ</h4>
-    <p><ruby>神託<rt>オラクル</rt></ruby> をコードにつづります</p>
+    <p><ruby>神託<rt>オラクル</rt></ruby> をコードにつづります。</p>
     <h4 class="ui header">村上春樹主義者</h4>
-    <p>やれやれ</p>
+    <p>やれやれ。</p>
     <h4 class="ui header">杏さや教徒</h4>
-    <p>あんた、マジなんだな</p>
+    <p>あんた、マジなんだな？</p>
     <h3 class="ui dividing header">コンタクト</h3>
     <div class="ui list">
       <div class="item">
