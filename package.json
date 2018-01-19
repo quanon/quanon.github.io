@@ -18,7 +18,7 @@
     "jquery": "^3.2.1",
     "nuxt": "^1.0.0",
     "semantic-ui-css": "^2.2.12",
-    "webpack": "^3.10.0"
+    "semantic-ui-less": "^2.2.12"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
@@ -32,9 +32,12 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
     "node-sass": "^4.7.2",
     "push-dir": "^0.4.1",
     "sass-loader": "^6.0.6",
-    "yaml-loader": "^0.5.0"
+    "yaml-loader": "^0.5.0",
+    "webpack": "^3.10.0"
   }
 }

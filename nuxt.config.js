@@ -1,3 +1,4 @@
+const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
@@ -9,7 +10,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: "QUANON's Page" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -41,6 +42,9 @@ module.exports = {
         loaders: ['json-loader', 'yaml-loader'],
         exclude: /(node_modules)/
       });
+      // eslint-disable-next-line no-param-reassign
+      config.resolve.alias['../../theme.config$'] =
+        path.join(__dirname, 'semantic-ui-theme/theme.config');
     },
     vendor: ['jquery', 'semantic-ui-css'],
     plugins: [
@@ -56,7 +60,7 @@ module.exports = {
     'semantic-ui-css/semantic.min.js'
   ],
   css: [
-    'semantic-ui-css/semantic.min.css',
+    'semantic-ui-less/semantic.less',
     '~assets/stylesheets/main.scss'
   ],
   modules: [
