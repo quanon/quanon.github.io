@@ -6,7 +6,7 @@
       <Intro/>
     </div>
     <div class="ui tab" data-tab="favorites">
-      <Favorites/>
+      <FavoriteCards/>
     </div>
     <div class="ui tab" data-tab="tools">
       <Tools/>
@@ -15,18 +15,18 @@
 </template>
 
 <script>
-import Favorites from '~/components/Favorites.vue';
-import Intro from '~/components/Intro.vue';
 import NameHeader from '~/components/NameHeader.vue';
 import StickyMenu from '~/components/StickyMenu.vue';
+import Intro from '~/components/Intro.vue';
+import FavoriteCards from '~/components/FavoriteCards.vue';
 import Tools from '~/components/Tools.vue';
 
 export default {
   components: {
-    Favorites,
-    Intro,
     NameHeader,
     StickyMenu,
+    Intro,
+    FavoriteCards,
     Tools
   }
 };

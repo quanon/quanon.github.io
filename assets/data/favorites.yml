@@ -1,9 +1,11 @@
 - title: プログラミング言語
+  type: simple
   items:
     - Python
     - Ruby
     - JavaScript
 - title: 食べ物
+  type: simple
   items:
     - お餅
     - カレー
@@ -14,6 +16,7 @@
     - 担々麺
     - 餃子
 - title: 飲み物
+  type: simple
   items:
     - コーヒー
     - ジントニック
@@ -21,10 +24,12 @@
     - 梅酒
     - 青りんごチューハイ
 - title: 動物
+  type: simple
   items:
     - コノハズク
     - ヒョウモントカゲモドキ
 - title: アニメ
+  type: simple
   items:
     - CLANNAD
     - ef - a tale of memories.
@@ -50,7 +55,20 @@
     - 花咲くいろは
     - 響け！ユーフォニアム
     - 魔法少女まどか☆マギカ
+- title: キャラクター
+  type: feed
+  items:
+    - date: 魔法少女まどか☆マギカ
+      title: 佐倉杏子
+      image: /images/kyoko.png
+    - date: 響けユーフォニアム
+      title: 中川夏紀
+      image: /images/natsuki.png
+    - date: ひだまりスケッチ
+      title: 宮子
+      image: /images/miyako.png
 - title: 小説
+  type: simple
   items:
     - 〈物語〉シリーズ
     - キノの旅
@@ -69,6 +87,7 @@
     - 夜は短し歩けよ乙女
     - 流れ星が消えないうちに
 - title: コミック
+  type: simple
   items:
     - 14歳の恋
     - SIDOOH
@@ -95,6 +114,7 @@
     - 狼少年は今日も嘘を重ねる
     - 惡の華
 - title: ゲーム
+  type: simple
   items:
     - モンスターハンター
     - ポケットモンスター
@@ -105,6 +125,7 @@
     - ダンガンロンパ
     - スプラトゥーン
 - title: 声優
+  type: simple
   items:
     - 塩沢兼人
     - 関智一
