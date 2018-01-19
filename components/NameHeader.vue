@@ -1,6 +1,6 @@
 <template>
   <div class="name-header ui center aligned icon header">
-    <img class="name-header-image ui medium circular image" src="~/assets/images/natsuki.png">
+    <img class="name-header-image ui medium circular image" src="/images/natsuki.png">
     <h1 class="name-header-name ui inverted header">QUANON</h1>
   </div>
 </template>
