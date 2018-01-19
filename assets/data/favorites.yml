@@ -1,9 +1,12 @@
 - title: プログラミング言語
-  type: simple
+  type: feed
   items:
-    - Python
-    - Ruby
-    - JavaScript
+    - title: Python
+      image: /images/python.png
+    - title: Ruby
+      image: /images/ruby.png
+    - title: JavaScript
+      image: /images/javascript.png
 - title: 食べ物
   type: simple
   items:
