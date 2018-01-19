@@ -13,7 +13,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: "QUANON's Page" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }
     ]
   },
