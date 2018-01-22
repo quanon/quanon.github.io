@@ -1,6 +1,9 @@
 <template>
   <div class="name-header ui center aligned icon header">
-    <img class="name-header-image ui medium circular image" src="/images/natsuki.png">
+    <div class="name-header-image ui medium circular rotate reveal image">
+      <img src="/images/natsuki.png" class="visible content">
+      <img src="/images/natsuki2.png" class="hidden content">
+    </div>
     <h1 class="name-header-name ui inverted header">QUANON</h1>
   </div>
 </template>
