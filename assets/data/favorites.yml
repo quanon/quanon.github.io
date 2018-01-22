@@ -3,10 +3,13 @@
   items:
     - title: Python
       image: /images/python.png
+      squareLabel: true
     - title: Ruby
       image: /images/ruby.png
+      squareLabel: true
     - title: JavaScript
       image: /images/javascript.png
+      squareLabel: true
 - title: 食べ物
   type: simple
   items:

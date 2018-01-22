@@ -5,7 +5,7 @@
       <div class="description">
         <div class="ui small feed">
           <div class="event" v-for="item in favorite.items">
-            <div class="label">
+            <div class="label" :class="{ square: item.squareLabel }">
               <!-- https://github.com/nuxt/nuxt.js/issues/448 -->
               <img :src="item.image">
             </div>
@@ -45,4 +45,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.square.label > img {
+  border-radius: 0 !important;
+}
 </style>
