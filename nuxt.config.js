@@ -14,7 +14,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=M+PLUS+1p' }
     ]
   },
   /*

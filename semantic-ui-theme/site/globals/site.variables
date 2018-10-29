@@ -1,2 +1,2 @@
-@headerFont: 'Mplus 1p', Arial, sans-serif;
-@pageFont: 'Mplus 1p', Arial, sans-serif;
+@headerFont: 'M PLUS 1p', sans-serif;
+@pageFont: 'M PLUS 1p', sans-serif;
