@@ -10,11 +10,9 @@
 </template>
 
 <script>
-import $ from 'jquery';
-
 export default {
   mounted() {
-    $('.main.menu').visibility({ type: 'fixed' });
+    // eslint-disable-next-line
     $('.tabs.menu .item').tab();
   }
 };

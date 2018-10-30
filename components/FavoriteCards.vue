@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import favorites from '~/assets/data/favorites.yml';
+import favorites from '~/assets/data/favorites.json';
 import FavoriteCard from '~/components/FavoriteCard.vue';
 
 export default {

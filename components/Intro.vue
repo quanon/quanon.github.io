@@ -21,7 +21,7 @@
       </div>
       <div class="item">
         <i class="github icon"></i>
-        <a class="content" href="https://github.com/quanon" target="_blank">Github</a>
+        <a class="content" href="https://github.com/quanon" target="_blank">GitHub</a>
       </div>
       <div class="item">
         <i class="globe icon"></i>

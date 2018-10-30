@@ -8,15 +8,7 @@
 </template>
 
 <script>
-import favorites from '~/assets/data/favorites.yml';
-
-export default {
-  data() {
-    return {
-      favorites
-    };
-  }
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
